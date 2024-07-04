@@ -1,0 +1,22 @@
+ls
+
+mkdir website/
+
+cd website/
+
+touch index.html
+
+cd ..
+
+vim nginx.conf
+
+touch style.css
+
+vim style.css
+
+nginx -t
+
+nginx -s reload
+
+cat mime.types
+
