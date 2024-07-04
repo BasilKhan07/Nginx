@@ -1,0 +1,21 @@
+docker run -it -p 8080:80 ubuntu
+
+apt-get update
+
+apt-get install nginx
+
+nginx
+
+http://localhost:8080
+
+cd etc/
+
+cd nginx/
+
+ls -lh
+
+mv nginx.conf nginx-backup.conf
+
+touch nginx.conf
+
+vim nginx.conf
