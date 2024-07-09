@@ -1,12 +1,10 @@
 # Node.js Deployment
 
-> Steps to deploy a Node.js app to DigitalOcean using PM2, NGINX as a reverse proxy and an SSL from LetsEncrypt
-
 ## 1. Create Free AWS Account
 Create free AWS Account at https://aws.amazon.com/
 
 ## 2. Create and Lauch an EC2 instance and SSH into machine
-I would be creating a t2.medium ubuntu machine for this demo.
+I would be creating a t2.micro ubuntu machine for this demo.
 
 ## 3. Install Node and NPM
 ```
@@ -18,7 +16,7 @@ node --version
 
 ## 4. Clone your project from Github
 ```
-git clone https://github.com/piyushgargdev-01/short-url-nodejs
+git clone https://github.com/BasilKhan07/short-url-nodejs
 ```
 
 ## 5. Install dependencies and test app
